@@ -1,0 +1,264 @@
+
+frontend@INFORCAP-39 MINGW64 ~
+$ bwm
+bash: bwm: command not found
+
+frontend@INFORCAP-39 MINGW64 ~
+$ pwn
+bash: pwn: command not found
+
+frontend@INFORCAP-39 MINGW64 ~
+$ pnw
+bash: pnw: command not found
+
+frontend@INFORCAP-39 MINGW64 ~
+$ pwd
+/c/Users/frontend
+
+frontend@INFORCAP-39 MINGW64 ~
+$ cd frontend
+bash: cd: frontend: No such file or directory
+
+frontend@INFORCAP-39 MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Configuración local'@
+ Contacts/
+ Cookies@
+'Datos de programa'@
+ Desktop/
+ Documents/
+ Downloads/
+'Entorno de red'@
+ Favorites/
+ Impresoras@
+ IntelGraphicsProfiles/
+ Links/
+'Menú Inicio'@
+ MicrosoftEdgeBackups/
+'Mis documentos'@
+ Music/
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{5d48659b-53fb-11ea-a863-c01736424a9f}.TM.blf
+ NTUSER.DAT{5d48659b-53fb-11ea-a863-c01736424a9f}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{5d48659b-53fb-11ea-a863-c01736424a9f}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ Pictures/
+ Plantillas@
+ Reciente@
+'Saved Games'/
+ Searches/
+ SendTo@
+ Videos/
+
+frontend@INFORCAP-39 MINGW64 ~
+$ cd Desktop/
+
+frontend@INFORCAP-39 MINGW64 ~/Desktop
+$ ls -l
+total 25
+-rwxr-xr-x 1 frontend 197121 2199 dic. 19 20:25  Atom.lnk*
+-rw-r--r-- 1 frontend 197121  282 feb. 24 19:32  desktop.ini
+drwxr-xr-x 1 frontend 197121    0 feb. 18 18:25  examen/
+drwxr-xr-x 1 frontend 197121    0 feb. 28 19:20  Front-end/
+-rw-r--r-- 1 frontend 197121 4951 feb.  6 22:53 'javaScrips Basics.html'
+-rwxr-xr-x 1 frontend 197121 1446 dic. 19 19:19 'Microsoft Edge.lnk'*
+drwxr-xr-x 1 frontend 197121    0 feb. 12 22:43 'Nueva carpeta (5)'/
+-rwxr-xr-x 1 frontend 197121 1416 dic. 19 20:23 'Visual Studio Code.lnk'*
+
+frontend@INFORCAP-39 MINGW64 ~/Desktop
+$ cd Front-end/
+
+frontend@INFORCAP-39 MINGW64 ~/Desktop/Front-end
+$ ls -l
+total 5904
+-rw-r--r-- 1 frontend 197121 1192033 feb. 25 18:58 'Algorithm_Book_(02-09-2016).pdf'
+drwxr-xr-x 1 frontend 197121       0 feb. 25 18:55 'bloque responsivo'/
+-rw-r--r-- 1 frontend 197121    1166 feb. 25 18:56 'bloque responsivo.zip'
+drwxr-xr-x 1 frontend 197121       0 feb. 26 21:02  ejercicios/
+-rw-r--r-- 1 frontend 197121  235852 feb. 18 22:59  examen.zip
+drwxr-xr-x 1 frontend 197121       0 feb. 28 21:46  github/
+-rw-r--r-- 1 frontend 197121 1606815 feb. 19 20:29  internet.zip
+drwxr-xr-x 1 frontend 197121       0 feb. 27 22:47 'Nueva carpeta'/
+-rw-r--r-- 1 frontend 197121    2886 feb.  7 22:53 'Nueva carpeta (4).zip'
+-rw-r--r-- 1 frontend 197121 2964131 feb. 12 22:34 'Nueva carpeta (5).zip'
+-rw-r--r-- 1 frontend 197121   18166 feb. 14 22:18 'Nueva carpeta (7).zip'
+
+frontend@INFORCAP-39 MINGW64 ~/Desktop/Front-end
+$ cd github/
+
+frontend@INFORCAP-39 MINGW64 ~/Desktop/Front-end/github (master)
+$ ls
+avance.txt  git.css  git.html  index.html  style.css
+
+frontend@INFORCAP-39 MINGW64 ~/Desktop/Front-end/github (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   git.css
+        modified:   git.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        avance.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+frontend@INFORCAP-39 MINGW64 ~/Desktop/Front-end/github (master)
+$ git add .
+
+frontend@INFORCAP-39 MINGW64 ~/Desktop/Front-end/github (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   avance.txt
+        modified:   git.css
+        modified:   git.html
+
+
+frontend@INFORCAP-39 MINGW64 ~/Desktop/Front-end/github (master)
+$ git commmit -m "yea
+> "
+git: 'commmit' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+frontend@INFORCAP-39 MINGW64 ~/Desktop/Front-end/github (master)
+$ git commit -m "yea!!!!!"
+git commit -m "yeagit commmit -m "yea
+"git commmit -m "yea
+"!"
+[master d0a45d4] yeagit commmit -m yea
+ 3 files changed, 537 insertions(+)
+ create mode 100644 avance.txt
+bash: git commmit -m yea: command not found
+bash: !: command not found
+
+frontend@INFORCAP-39 MINGW64 ~/Desktop/Front-end/github (master)
+$ ^C
+
+frontend@INFORCAP-39 MINGW64 ~/Desktop/Front-end/github (master)
+$ git commit -m "yea"
+On branch master
+nothing to commit, working tree clean
+
+frontend@INFORCAP-39 MINGW64 ~/Desktop/Front-end/github (master)
+$ ^C
+
+frontend@INFORCAP-39 MINGW64 ~/Desktop/Front-end/github (master)
+$ git staatus
+git: 'staatus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+frontend@INFORCAP-39 MINGW64 ~/Desktop/Front-end/github (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+frontend@INFORCAP-39 MINGW64 ~/Desktop/Front-end/github (master)
+$ git remote add origin https://github.com/AulaStudio/hi-worl.git
+
+frontend@INFORCAP-39 MINGW64 ~/Desktop/Front-end/github (master)
+$ git push -u origin master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+remote: No anonymous write access.
+fatal: Authentication failed for 'https://github.com/AulaStudio/hi-worl.git/'
+
+frontend@INFORCAP-39 MINGW64 ~/Desktop/Front-end/github (master)
+$ git push -u origin master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+error: unable to read askpass response from 'C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass'
+Username for 'https://github.com':
+remote: No anonymous write access.
+fatal: Authentication failed for 'https://github.com/AulaStudio/hi-worl.git/'
+
+frontend@INFORCAP-39 MINGW64 ~/Desktop/Front-end/github (master)
+$ git push -u origin master
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (10/10), 4.47 KiB | 762.00 KiB/s, done.
+Total 10 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/AulaStudio/hi-worl.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+frontend@INFORCAP-39 MINGW64 ~/Desktop/Front-end/github (master)
+$ git push -u origin master
+Everything up-to-date
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+frontend@INFORCAP-39 MINGW64 ~/Desktop/Front-end/github (master)
+$ git clone https://github.com/AulaStudio/hi-worl.git
+Cloning into 'hi-worl'...
+remote: Enumerating objects: 10, done.
+remote: Counting objects: 100% (10/10), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 10 (delta 2), reused 10 (delta 2), pack-reused 0
+Unpacking objects: 100% (10/10), 4.45 KiB | 9.00 KiB/s, done.
+
+frontend@INFORCAP-39 MINGW64 ~/Desktop/Front-end/github (master)
+$ ^C
+
+frontend@INFORCAP-39 MINGW64 ~/Desktop/Front-end/github (master)
+$ ls
+avance.txt  git.css  git.html  hi-worl/  index.html  style.css
+
+frontend@INFORCAP-39 MINGW64 ~/Desktop/Front-end/github (master)
+$ touch yea!!.txt
+touch yeals.txt
+
+frontend@INFORCAP-39 MINGW64 ~/Desktop/Front-end/github (master)
+$ ls
+avance.txt  git.css  git.html  hi-worl/  index.html  style.css  yeals.txt
+
+frontend@INFORCAP-39 MINGW64 ~/Desktop/Front-end/github (master)
+$ cd ..
+
+frontend@INFORCAP-39 MINGW64 ~/Desktop/Front-end
+$ ls
+'Algorithm_Book_(02-09-2016).pdf'   examen.zip       'Nueva carpeta (4).zip'
+'bloque responsivo'/                github/          'Nueva carpeta (5).zip'
+'bloque responsivo.zip'             internet.zip     'Nueva carpeta (7).zip'
+ ejercicios/                       'Nueva carpeta'/
+
+frontend@INFORCAP-39 MINGW64 ~/Desktop/Front-end
+$ cd github/
+
+frontend@INFORCAP-39 MINGW64 ~/Desktop/Front-end/github (master)
+$ ls -l
+total 26
+-rw-r--r-- 1 frontend 197121 18137 feb. 28 21:47 avance.txt
+-rw-r--r-- 1 frontend 197121   277 feb. 28 21:45 git.css
+-rw-r--r-- 1 frontend 197121   399 feb. 28 21:45 git.html
+drwxr-xr-x 1 frontend 197121     0 mar.  3 19:07 hi-worl/
+-rw-r--r-- 1 frontend 197121     0 feb. 28 19:21 index.html
+-rw-r--r-- 1 frontend 197121     0 feb. 28 19:21 style.css
+-rw-r--r-- 1 frontend 197121     0 mar.  3 19:08 yeals.txt
+
+frontend@INFORCAP-39 MINGW64 ~/Desktop/Front-end/github (master)
+$ cd hi-worl/
+
+frontend@INFORCAP-39 MINGW64 ~/Desktop/Front-end/github/hi-worl (master)
+$ ls -l
+total 22
+-rw-r--r-- 1 frontend 197121 18137 mar.  3 19:07 avance.txt
+-rw-r--r-- 1 frontend 197121   277 mar.  3 19:07 git.css
+-rw-r--r-- 1 frontend 197121   399 mar.  3 19:07 git.html
+-rw-r--r-- 1 frontend 197121     0 mar.  3 19:07 index.html
+-rw-r--r-- 1 frontend 197121     0 mar.  3 19:07 style.css
+
+frontend@INFORCAP-39 MINGW64 ~/Desktop/Front-end/github/hi-worl (master)
+$
