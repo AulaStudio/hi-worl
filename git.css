@@ -6,3 +6,9 @@ h4{
     margin: 0px 10%;
     padding: 5%;
 }
+ 
+nav{
+    background-color: blueviolet;
+    width: 50%;
+    height: 3%;
+}
